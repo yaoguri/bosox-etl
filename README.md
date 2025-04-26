@@ -1,9 +1,9 @@
-Red Sox Game Tracker (ETL + Grafana Dashboard)
+## Red Sox Game Tracker (ETL + Grafana Dashboard)
 
-About
+## About
 This project tracks the Boston Red Sox 2025 season by extracting game data using the MLB StatsAPI, storing it in a PostgreSQL database, and visualizing team performance using Grafana.
 
-Features
+## Features
 - ETL Pipeline (Python) using MLB StatsAPI
 - PostgreSQL Database Storage
 - Grafana Dashboards:
@@ -12,15 +12,15 @@ Features
   - Home vs Away Records
   - Opponent Win/Loss Analysis
 
-How It Works
+## How It Works
 1. Python ETL script extracts and loads game data into PostgreSQL.
 2. Grafana visualizes real-time game performance.
 3. PostgreSQL automatically updates as more games are played.
 
-Setup
+## Setup
 - Python 3.13
 - PostgreSQL
 - Grafana
 
-Author
+## Author
 - Built by Miguel Luyao
